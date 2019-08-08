@@ -1,0 +1,7 @@
+package com.groupwork.demo.Repositories;
+
+import com.groupwork.demo.Models.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}
